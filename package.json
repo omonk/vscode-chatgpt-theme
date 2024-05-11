@@ -1,0 +1,21 @@
+{
+  "name": "chatgpt",
+  "displayName": "ChatGPT",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ChatGPT",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ChatGPT-color-theme.json"
+      }
+    ]
+  }
+}

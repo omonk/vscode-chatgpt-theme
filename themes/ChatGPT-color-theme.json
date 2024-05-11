@@ -1,0 +1,115 @@
+{
+  "name": "Custom Highlight.js Theme",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1c1c1c",
+    "editor.foreground": "#fff",
+    "editor.lineHighlightBackground": "#333",
+    "editor.selectionBackground": "#444",
+    "editorCursor.foreground": "#fff",
+    "editorLineNumber.foreground": "#999",
+    "editorWhitespace.foreground": "#444"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#FFFFFF55"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control",
+        "keyword.operator",
+        "storage.modifier.async"
+      ],
+      "settings": {
+        "foreground": "#2e95d3"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.object",
+        "variable.parameter",
+        "variable.other.property",
+        "variable.other.readwrite",
+        "meta.brace.square",
+        "meta.definition.variable",
+        "variable.language.super"
+      ],
+      "settings": {
+        "foreground": "#fff"
+      }
+    },
+    {
+      "scope": ["storage.type.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": "meta",
+      "settings": {
+        "foreground": "#FFFFFF99"
+      }
+    },
+    {
+      "scope": [
+        "built_in",
+        "entity.name.class",
+        "support.type.primitive",
+        "entity.name.tag.tsx",
+        "entity.name.tag.jsx",
+        "entity.name.tag.html"
+      ],
+      "settings": {
+        "foreground": "#e9950c"
+      }
+    },
+    {
+      "scope": [
+        "meta.block",
+        "meta.var.expr",
+        "storage.type.function",
+        "storage.type.class",
+        "literal"
+      ],
+      "settings": {
+        "foreground": "#2e95d3"
+      }
+    },
+    {
+      "scope": ["string", "meta.string"],
+      "settings": {
+        "foreground": "#00a67d"
+      }
+    },
+    {
+      "scope": [
+        "number",
+        "type",
+        "variable.language.this",
+        "constant.numeric",
+        "meta.object-literal.key",
+        "variable.object.property",
+        "variable.other.constant",
+        "entity.other.inherited-class",
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#f32f81"
+      }
+    },
+    {
+      "scope": [
+        "link",
+        "entity.name.type",
+        "meta.method.declaration",
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#f22c3d"
+      }
+    }
+  ]
+}
