@@ -9,6 +9,9 @@
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "package-and-install": "vsce package --allow-missing-repository && code --install-extension find-translations-1.0.0.vsix"
+  },
   "contributes": {
     "themes": [
       {
